@@ -1,0 +1,15 @@
+print("Tuples in Python")
+values1 = ("syed", "syab")
+values2 = ("Ahmad", "Shah")
+values3 = values1 + values2
+print(values1)
+print(type(values1))
+print(values1 , values2)
+print(values3)
+print(values3[2:])
+print(values3[1:])
+print(values1[:3])
+print(values2[0:])
+#values1.append("de Developer")
+# will give you Error coz Tuples has no attribute of type append
+#print(values1)

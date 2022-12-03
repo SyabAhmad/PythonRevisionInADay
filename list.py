@@ -8,3 +8,4 @@ print(mylist[-1:])
 print(mylist[:-2])
 mylist.append("de Developer")
 print(mylist)
+print(len(mylist));
