@@ -2,12 +2,11 @@ import this
 
 
 class student:
-    def __int__(self, name, age, rollNumber):
+    def __int__(self, name, age, ):
         this.name = name
         this.age = age
-        this.rollNumber = rollNumber
 
-std = student("developer", 22, 206174)
+std = student("developer", 22)
 
 print(std)
 
