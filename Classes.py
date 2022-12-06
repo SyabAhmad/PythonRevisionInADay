@@ -2,11 +2,14 @@ import this
 
 
 class student:
-    def __int__(self, name, age, ):
-        this.name = name
-        this.age = age
+    def __int__(self, name, age):
+        self.name = name
+        self.age = age
+    def displayUsername(self):
+        print(self.name)
 
-std = student("developer", 22)
 
-print(std)
+std = student("asas",12)
+
+std.displayUsername()
 
