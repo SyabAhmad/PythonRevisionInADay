@@ -1,15 +1,12 @@
-import this
-
 
 class student:
-    def __int__(self, name, age):
+    def __init__(self, name):
         self.name = name
-        self.age = age
     def displayUsername(self):
         print(self.name)
 
 
-std = student("asas",12)
+std = student("de Developer")
 
 std.displayUsername()
 
